@@ -29,8 +29,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            MoodMusic&nbsp;
-            <i class=" fa-solid fa-music" />
+            Summer Overseas&nbsp;
+            <i class=" fa-solid fa-earth-americas" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -43,20 +43,16 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/Playlists"
+                to="/testimonials"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Playlists
+                Testimonials
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/products"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Products
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                About
               </Link>
             </li>
 
