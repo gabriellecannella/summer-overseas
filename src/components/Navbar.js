@@ -59,6 +59,15 @@ function Navbar() {
                 About Us
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/past-trips"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Past Trips
+              </Link>
+            </li>
             <li>
               <Link
                 to="/sign-up"
