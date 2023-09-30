@@ -8,6 +8,7 @@
 .home,
 .testimonials,
 .about-us,
+.past-trips,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -17,7 +18,7 @@
 }
 
 .testimonials {
-  background-image: url('/public/images/img-1.jpg');
+  background-image: url('/public/images/img-11.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,9 +27,9 @@
 }
 
 .about-us {
-  background-image: url('/public/images/img-1.jpg');
+  background-image: url('/public/images/img-8.jpeg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -44,7 +45,7 @@
 }
 
 .past-trips {
-  background-image: url('/public/images/img-1.jpg');
+  background-image: url('/public/images/img-6.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

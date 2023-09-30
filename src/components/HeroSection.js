@@ -8,8 +8,8 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
-      <h1>UF IN CAPE TOWN</h1>
-      <p>Learn more today!</p>
+      <h1>UF IN GHANA</h1>
+      <p>Enroll in your Summer Internship Today </p>
       <div className="hero-btns">
         <Button_AboutUs
           className="btns"
@@ -24,7 +24,7 @@ function HeroSection() {
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          SIGN UP
+          RESERVE MY SPOT
         </Button>
       </div>
     </div>
