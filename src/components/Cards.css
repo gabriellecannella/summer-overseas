@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    text-align: center;
   }
   
   h1 {
@@ -68,6 +69,7 @@
     color: #fff;
     background-color: none;
     box-sizing: border-box;
+    text-align: center;
   }
   
   .cards__item__img {

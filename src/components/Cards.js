@@ -11,13 +11,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-1.jpg"
-              //text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Discover the World"
               //label="learn"
               path="/services"
             />
             <CardItem
               src="images/img-2.jpg"
-              //text="Travel through the Islands of Bali in a Private Cruise"
+              text="Unlock your global potential"
               //label="Luxury"
               path="/services"
             />

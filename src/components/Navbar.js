@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import CustomIcon from "./icons/uf-logo.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,10 +29,13 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            SUMMER OVERSEAS&nbsp;
-            <i class=" fa-solid fa-earth-americas" />
-          </Link>
+          <div className="top-nav">
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+              {/*  STUDY ABROAD&nbsp;
+            <i class=" fa-solid fa-earth-americas" /> */}
+              <img src={CustomIcon} alt="Custom Icon" className="custom-icon" />
+            </Link>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
