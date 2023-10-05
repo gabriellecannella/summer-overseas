@@ -17,7 +17,7 @@ function Cards() {
             />
             <CardItem
               src="images/img-2.jpg"
-              text="Unlock your global potential"
+              text="Unlock your Global Potential"
               //label="Luxury"
               path="/services"
             />
@@ -25,19 +25,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-10.jpeg"
-              //text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              text="Where Learning Meets Adventure"
               //label="Mystery"
               path="/services"
             />
             <CardItem
               src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="Learn Beyond Borders"
               //label="Adventure"
               path="/products"
             />
             <CardItem
               src="images/img-8.jpeg"
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Expand Your Horizons"
               //label="Adrenaline"
               path="/sign-up"
             />
