@@ -7,21 +7,10 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">Subscribe Below</p>
-        <p className="footer-subscription-text">
-          Recieve trip updates and information.
+        <p className="footer-subscription-heading">
+          TRANSFORMATIVE LEARNING JOURNEYS
         </p>
-        <div className="input-areas">
-          <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
+        <p className="footer-subscription-text">Your Journey Starts Here.</p>
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
@@ -29,13 +18,16 @@ function Footer() {
             <h2>About Us</h2>
             <Link to="/sign-up">Upcoming Trip</Link>
             <Link to="/">Past Trips</Link>
-            <Link to="/">Photos</Link>
-            <Link to="/">Testimonials</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Destinations</Link>
+          </div>
+          <div class="footer-link-items">
+            <h2>Learn More</h2>
+            <Link to="/">Photos</Link>
+            <Link to="/">Testimonials</Link>
           </div>
         </div>
       </div>
@@ -43,8 +35,15 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              Summer Overseas
-              <i class="fab fa-typo3" />
+              <span className="edu-box">
+                <span className="edu">EDU</span>
+              </span>
+              <span className="africa-box">
+                <span className="africa">AFRICA</span>
+              </span>
+              <span className="icon-spacing"></span>{" "}
+              {/* Use CSS for styling the spacing */}
+              <i class="fa-solid fa-earth-africa" />
             </Link>
           </div>
           <small class="website-rights">UF Abroad © 2023</small>
