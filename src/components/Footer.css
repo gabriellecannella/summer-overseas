@@ -161,3 +161,31 @@
 
 @media screen and (max-width: 768px) {
 }
+
+.edu-box {
+  background: linear-gradient(45deg, transparent 50%, #0021A5);
+  padding: 5px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+/* Style the "AFRICA" box */
+.africa-box {
+  background: linear-gradient(45deg, transparent 50%, #FF8700);
+  padding: 5px;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* Style the text color to white in both boxes */
+.edu, .africa {
+  color: white;
+}
+
+.icon-spacing {
+  margin-right: 10px; /* Adjust the margin to control the spacing */
+}
+
+
+
+
+
+
