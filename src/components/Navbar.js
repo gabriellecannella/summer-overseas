@@ -3,6 +3,7 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import CustomIcon from "./icons/uf-logo.png";
+import { Button_SignUp } from "./Button_SignUp";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -82,7 +83,9 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && (
+            <Button_SignUp buttonStyle="btn--outline">SIGN UP</Button_SignUp>
+          )}
         </div>
       </nav>
     </>

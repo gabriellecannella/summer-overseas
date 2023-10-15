@@ -112,7 +112,7 @@ export default function AboutUs() {
             <img src="images/img-14.jpeg" alt="Ghana Image 2" />
           </div>
           <p></p>
-          <h3>Local program facilitator and or guide </h3>
+          <h3>Local program facilitator and guide </h3>
           <p>
             All EDU Africa programs are implemented by trusted program
             facilitators and/or guides. Our program facilitators and guides
