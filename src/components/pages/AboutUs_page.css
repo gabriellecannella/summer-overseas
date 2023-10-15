@@ -34,7 +34,8 @@ main {
 /* Section styles */
 .about-section {
     margin-bottom: 20px;
-    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
@@ -43,15 +44,25 @@ main {
 
 /* Header styles for sections */
 .about-section h2 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
+    font-weight: 200;
     color: #0021A5;
 }
 
+.about-section h3 {
+color: rgb(65, 63, 63);
+font-size: 24px;
+font-weight: 100;
+    margin-bottom: 10px;
+
+}
+
 /* List styles */
-.about-section ul {
-    list-style-type: disc;
+.about-section ol {
+    list-style-type:decimal;
     padding-left: 20px;
+    color: rgb(73, 72, 72);
 }
 
 /* Footer styles */
@@ -61,3 +72,24 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.about-section p {
+    margin-bottom: 1.5em; /* This sets the space to one line height (adjust as needed) */
+    color: rgb(73, 72, 72);
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    width: 70%; /* Set the container width to 50% of the window */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Style for the images */
+  .image-container img {
+    width: auto; /* Allow the width to adjust to the fixed height */
+     height: 300px;
+    max-width: 100%; /* Ensure the images don't exceed their natural size */
+    margin-right: 40px; /* Add right margin (adjust as needed) */
+  }
