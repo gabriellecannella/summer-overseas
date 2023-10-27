@@ -20,7 +20,7 @@ const Goal = () => {
     };
 
     return (
-        <div class='alert alert-secondary p-3 d-flex align-items-center justify-content-between'>
+        <div>
             {isEditing ? (
                 <EditGoal handleSaveClick={handleSaveClick} goal={goal}/>
             ) : (

@@ -5,6 +5,7 @@ import "./HeroSection.css";
 import { Button_AboutUs } from "./Button_AboutUs";
 import { AppProvider } from "../context/AppContext";
 import Goal from "./Goal";
+import Remaining from "./Remaining";
 
 function HeroSection() {
   return (
@@ -16,10 +17,10 @@ function HeroSection() {
           <div>
             {" "}
             <Goal />
+            <Remaining />
           </div>
         </AppProvider>
       </h2>
-      <p>SPOTS REMAINING </p>
       <div className="hero-btns">
         <Button_AboutUs
           className="btns"
