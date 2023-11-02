@@ -3,6 +3,7 @@ import "../../App.css";
 import "./AboutUs_page.css";
 import { Button_LearnMore } from "../Button_LearnMore.js";
 import "../HeroSection.css";
+import Footer from "../Footer";
 
 export default function AboutUs() {
   return (
@@ -80,7 +81,7 @@ export default function AboutUs() {
             </Button_LearnMore>
           </div>
           <div className="image-container">
-            <img src="images/img-15.jpeg" alt="Ghana Image 2" />
+            <img src="images/img-16.jpg" alt="Ghana Image 2" />
           </div>
         </section>
         <section className="about-section">
@@ -123,7 +124,7 @@ export default function AboutUs() {
           </ol>
           <p></p>
           <div className="image-container">
-            <img src="images/img-14.jpeg" alt="Ghana Image 2" />
+            <img src="images/img-14.jpg" alt="Ghana Image 2" />
           </div>
           <p></p>
           <h3>Local program facilitator and guide </h3>
@@ -236,6 +237,7 @@ export default function AboutUs() {
           </bullet>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
