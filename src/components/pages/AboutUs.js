@@ -1,6 +1,8 @@
 import React from "react";
 import "../../App.css";
 import "./AboutUs_page.css";
+import { Button_LearnMore } from "../Button_LearnMore.js";
+import "../HeroSection.css";
 
 export default function AboutUs() {
   return (
@@ -63,11 +65,24 @@ export default function AboutUs() {
             engineering in a global, economic, environmental, and cultural
             context.
           </p>
+          <div className="button-container">
+            <h1>
+              Click the link below to find out more about housing, costs, and
+              eligibility!
+            </h1>
+            <p></p>
+            <Button_LearnMore
+              className="btns"
+              buttonStyle="btn--LearnMore"
+              buttonSize="btn--large"
+            >
+              APPLY NOW
+            </Button_LearnMore>
+          </div>
           <div className="image-container">
             <img src="images/img-15.jpeg" alt="Ghana Image 2" />
           </div>
         </section>
-
         <section className="about-section">
           <h2>TRANSFORMATIVE LEARNING JOURNEYS</h2>
           <h3>Our Goals</h3>
@@ -78,7 +93,6 @@ export default function AboutUs() {
             professionally, and as global citizens.
           </p>
         </section>
-
         <section className="about-section">
           <h2>LEARNING OUTCOMES</h2>
           <p>By the end of this program, students should be able to:</p>
@@ -132,6 +146,94 @@ export default function AboutUs() {
             be available at all times to assist with any student and educator
             needs, thus ensuring the smooth running of the program.{" "}
           </p>
+        </section>
+        <section className="about-section">
+          <h2>STUDENT ELIGIBILITY REQUIREMENTS</h2>
+          <bullet>
+            <li>
+              Signing and adhering to the policies outlined in EDU Africa’s
+              Participant Agreement Form, which include protocols for Notifiable
+              Medical Conditions such as COVID-19
+            </li>
+            <li>
+              Obtaining travel insurance (highly recommended) before travel.
+              This should include adequate cover for baggage, curtailment, and
+              provision for any forms of disruptions to travel due to Notifiable
+              Medical Conditions such as COVID-19. Please note that participants
+              who choose not to take out relevant travel insurance must be
+              prepared to directly cover any such expenses as stated above
+              should they arise while they travel.
+            </li>
+            <li>
+              {" "}
+              Obtaining medical insurance (compulsory) before travel. This
+              should cover any potential medical expenses and the cost of
+              repatriation should participants become too ill to participate,
+              including helicopter rescue and air ambulance services, as well as
+              cover any forms of medical expenses that may be incurred due to
+              illnesses from Notifiable Medical Conditions such as COVID-19.
+              Please note that participants who choose not to take out relevant
+              medical insurance must be prepared to directly cover any such
+              expenses as stated above should they arise while they travel
+            </li>
+            <li>
+              Carrying their own luggage as much as possible to minimize
+              cross-contamination with germs (help will be available when
+              necessary in adherence to any Notifiable Medical Conditions
+              protocols)
+            </li>
+            <li>
+              Dealing with ambiguity, for example, there may need to be
+              last-minute unforeseen changes to the program itinerary
+            </li>
+            <li>
+              Committing to ethical community engagement in accordance with the
+              presented guidelines
+            </li>
+            <li>
+              Adhering to general ethical boundaries if involved in a
+              service-learning program
+            </li>
+            <li>
+              Visiting potentially triggering or traumatic areas/sites such as
+              slave dungeons
+            </li>
+            <li>
+              Living in a setting away from consistent internet connectivity for
+              six weeks
+            </li>
+            <li>
+              Coping with lack of electricity during scheduled and/or unplanned
+              power outages, and any effects that this may have on the itinerary
+            </li>
+            <li>
+              Walking long distances over rough terrain, for example during the
+              Wli Waterfalls Trek
+            </li>
+            <li>
+              Disclosing dietary needs (allergies and requirements) ahead of
+              time to make accommodating these needs more practical
+            </li>
+            <li>
+              Learning to adjust to communicating and interacting with others
+              who may have different accents, values, beliefs, cultures, and
+              traditions for the duration of the program
+            </li>
+            <li>
+              Interacting with materially poor environments (as evident, for
+              example, through the appearance of general and housing
+              infrastructure, modes of transport, clothing, etc.) and
+              demonstrating respect and acknowledging dignity in all
+              circumstances
+            </li>
+            <li>
+              Being aware that they may be approached by people selling their
+              wares or asking for food or money. While your local
+              facilitator/guide will assist in managing these situations,
+              participants should recognize that it is not impolite to say “no,
+              thank you” and walk away.
+            </li>
+          </bullet>
         </section>
       </div>
     </>
