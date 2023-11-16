@@ -66,6 +66,9 @@ export default function AboutUs() {
             engineering in a global, economic, environmental, and cultural
             context.
           </p>
+          <div className="image-container">
+            <img src="images/img-16.jpg" alt="Ghana Image 2" />
+          </div>
           <div className="button-container">
             <h1>
               Click the link below to find out more about housing, costs, and
@@ -79,9 +82,6 @@ export default function AboutUs() {
             >
               APPLY NOW
             </Button_LearnMore>
-          </div>
-          <div className="image-container">
-            <img src="images/img-16.jpg" alt="Ghana Image 2" />
           </div>
         </section>
         <section className="about-section">

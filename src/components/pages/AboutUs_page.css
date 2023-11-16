@@ -102,6 +102,7 @@ footer {
     align-items: center; /* Vertical centering */
     width: 70%; /* Set the container width to 50% of the window */
     margin: 0 auto; /* Center the container horizontally */
+    margin-bottom: 25px;
   }
   
   /* Style for the images */

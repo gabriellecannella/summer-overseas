@@ -3,24 +3,12 @@ import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import { Button_AboutUs } from "./Button_AboutUs";
-import { AppProvider } from "../context/AppContext";
-import Goal from "./Goal";
-import Remaining from "./Remaining";
 
 function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/home.mp4" autoPlay loop muted />
       <h1>UF IN GHANA</h1>
-      <h2>
-        <AppProvider>
-          <div>
-            {" "}
-            <Goal />
-            <Remaining />
-          </div>
-        </AppProvider>
-      </h2>
       <div className="hero-btns">
         <Button_AboutUs
           className="btns"
