@@ -16,18 +16,12 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">Upcoming Trip</Link>
-            <Link to="/">Past Trips</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Destinations</Link>
+            <Link to="/about-us">Upcoming Trip</Link>
+            <Link to="/past-trips">Past Trips</Link>
           </div>
           <div class="footer-link-items">
             <h2>Learn More</h2>
-            <Link to="/">Photos</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/testimonials">Testimonials</Link>
           </div>
         </div>
       </div>
