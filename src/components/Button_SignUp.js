@@ -33,7 +33,7 @@ export const Button_SignUp = ({
 
   return (
     <a
-      href="https://www.studyabroadcapacitybuilding.org/ideas-grant-competition/"
+      href="https://ufabroad.internationalcenter.ufl.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=13332"
       target="_blank" // Open in a new tab
       rel="noopener noreferrer" // Recommended for security
     >

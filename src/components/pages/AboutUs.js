@@ -80,7 +80,7 @@ export default function AboutUs() {
               buttonStyle="btn--LearnMore"
               buttonSize="btn--large"
             >
-              APPLY NOW
+              LEARN MORE
             </Button_LearnMore>
           </div>
         </section>

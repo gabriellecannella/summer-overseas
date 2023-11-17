@@ -3,6 +3,7 @@ import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import { Button_AboutUs } from "./Button_AboutUs";
+import { Button_SignUp } from "./Button_SignUp";
 
 function HeroSection() {
   return (
@@ -17,14 +18,14 @@ function HeroSection() {
         >
           LEARN MORE
         </Button_AboutUs>
-        <Button
+        <Button_SignUp
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
           RESERVE MY SPOT
-        </Button>
+        </Button_SignUp>
       </div>
     </div>
   );
