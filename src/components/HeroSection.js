@@ -8,7 +8,7 @@ import { Button_SignUp } from "./Button_SignUp";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/home.mp4" autoPlay loop muted />
+      <video src="./videos/home.mp4" autoPlay loop muted />
       <h1>UF IN GHANA</h1>
       <div className="hero-btns">
         <Button_AboutUs
