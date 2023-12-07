@@ -6,7 +6,7 @@ const STYLES = ["btn--primary", "btn--outline", "btn--test", "btn--LearnMore"];
 
 const SIZES = ["btn--medium", "btn--large"];
 
-export const Button_LearnMore = ({
+export const Button_PastTrip = ({
   children,
   type,
   onClick,
@@ -21,7 +21,7 @@ export const Button_LearnMore = ({
 
   return (
     <a
-      href="https://uflorida-my.sharepoint.com/personal/gcannella_ufl_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fgcannella%5Fufl%5Fedu%2FDocuments%2FFall%202023%2FCIS4914%2FSenior%20Design%20%2D%20Project%2FUniversity%20of%20Florida%20%5F%20Computer%20Science%20Internship%20%5F%20Ghana%202024%20%281%29%20%281%29%20%281%29%2Epdf&parent=%2Fpersonal%2Fgcannella%5Fufl%5Fedu%2FDocuments%2FFall%202023%2FCIS4914%2FSenior%20Design%20%2D%20Project"
+      href="https://uflorida-my.sharepoint.com/personal/gcannella_ufl_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fgcannella%5Fufl%5Fedu%2FDocuments%2FFall%202023%2FCIS4914%2FSenior%20Design%20%2D%20Project%2FGhana%5FSyllabus%2Epdf&parent=%2Fpersonal%2Fgcannella%5Fufl%5Fedu%2FDocuments%2FFall%202023%2FCIS4914%2FSenior%20Design%20%2D%20Projects"
       target="_blank" // Open in a new tab
       rel="noopener noreferrer" // Recommended for security
     >

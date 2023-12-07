@@ -1,8 +1,8 @@
 import React from "react";
 import "../../App.css";
-import { Button_LearnMore } from "../Button_LearnMore.js";
 import Cards from "../Cards";
 import Footer from "../Footer";
+import { Button_PastTrip } from "../Button_PastTrip.js";
 
 export default function PastTrips() {
   return (
@@ -40,13 +40,13 @@ export default function PastTrips() {
           <div className="button-container">
             <h3>Check out last years course syllabus below!</h3>
             <p></p>
-            <Button_LearnMore
+            <Button_PastTrip
               className="btns"
               buttonStyle="btn--LearnMore"
               buttonSize="btn--large"
             >
               Learn More
-            </Button_LearnMore>
+            </Button_PastTrip>
           </div>
         </section>
         <Cards />
