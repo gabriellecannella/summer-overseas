@@ -1,7 +1,7 @@
 {
   "name": "summer-overseas",
   "version": "0.1.0",
-  "homepage": "https://gabriellecannella.github.io/summeroverseas",
+  "homepage": "https://gabriellecannella.github.io",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.11.0",
